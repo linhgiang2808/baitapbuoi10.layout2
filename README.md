@@ -1,1 +1,1 @@
-# baitapbuoi10.layout2
+./index.html
