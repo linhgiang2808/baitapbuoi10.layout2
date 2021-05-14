@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.overal{
+    padding-top: 1px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    
+}
+h2{
+    margin-left: 6px;
+    font-style: italic;
+    image-rendering: auto;
+    background-position-y: 5px;
+    background-image: url(./đường\ kẻ.png);
+}
+.container{
+    max-width: 900px;
+    margin: 0px auto;
+}
+img{
+    max-width: 30%;
+    width: 136px;
+    height: 84px;
+    margin-bottom: 10px;
+}
+.col{
+    width: 50%;
+    margin: 10px;
+    display: flex;
+    border-bottom:1px solid rgb(58, 56, 56)
+}
+
+.content{
+    justify-content: space-between;
+    font-weight: bold;
+    margin-left: 10px ;
+}
+.title{
+    color: #222;
+    font: normal 14px/normal Roboto-Bold;
+    position: relative;
+    padding-left: 8px;
+    float: left;
+    padding-bottom: 4px;
+    text-transform: uppercase
+}
+.Star{
+    color: red;
+    font-weight: bold;
+}
+.News{
+    color: yellow;
+    font-weight: bold;
+}
+.Health{
+    color: blue;
+    font-weight: bold;
+}
+.world{
+    color: brown;
+    font-weight: bold;
+}
+.sport{
+    color: orange;
+    font-weight: bold;
+}
+.movie{
+    color: palevioletred;
+    font-weight: bold;
+}
+.tech{
+    color: navy;
+    font-weight: bold;
+}
